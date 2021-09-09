@@ -1,87 +1,32 @@
 <!DOCTYPE html>
+
 <html>
+    <head>
+        <title> Intro to Web Development </title>
+    </head>
 
-<head>
-    <title> Intro to Web Design </title>
-</head>
-
-
-<body> 
-    <section>
-        <h1> Basic Tags: </h1>
+    <body style="background-color: goldenrod;">
+        <nav>
+            <a href="./index.html"> Home</a> |
+            <a href="./basic-tags.html"> Basic Tags </a> |
+            <a href="./list-tags.html"> List Tags </a> |
+            <a href="./image-tag.html"> Image Tag </a> |
+            <a href="./video-tag.html"> Video Tag </a> |
+            <a href="./audio-tag.html" target="_blank"> Audio Tag </a> |
+            <a href="./iframe-tag.html"> Iframe Tag </a>
+        </nav>
         <hr>
-        <h1> Heading 1 </h1>
-        <h2> Heading 2 </h2>
-        <h3> Heading 3</h3>
-        <h4> Heading 4 </h4>
-        <h5> Heading 5 </h5>
-        <h6> Heading 6 </h6>
 
-        <p> This is a paragraph the could on and on and on and on and on and on </p>
-        <b> This will be BOLD </b>
-        <p> Use <b>BOLD</b> tag inside of a paragraph tag </p>
-        <br>
-        <p> Adding extra line break ^ </p>
-        <p> Hello <br>  World</p>
-        <i> Italic Text! </i>
-        <br>
-        <u> Underline Text! </u>
+        <section style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+        <h1 style="border-width: 3.0px; border-style: groove;"> Welcome to HTML 1 on 1 </h1>
+        <p style="font-size: 20px;"> You will find basic HTML implementation and different ways to use HTML tags.</p>
+        <p> Sections are important to reduce code redundancy. 
+            <br>In this example we are using the section tag to center both the header and the paragraph.</p>
+        </section>
 
-    </section>
-    <hr>
-    <section>
-        <h1> List Tags: </h1>
-        <h3> Ordered List </h3>
-        <ol>
-            <li>Item 1 </li>
-            <li>Item 2 </li>
-            <li>Item 3 </li>
-        </ol>
-
-        <h3>Unordered List: </h3>
-        <ul>
-            <li> Item 1 </li>
-            <li> Item 2 </li>
-            <li> Item 3 </li>
-        </ul>
-
-        <h3> Nested List: </h3>
-        <ul>
-            <li> Item 1 
-                <ol>
-                    <li>Sub Item 1</li>
-                    <li> Sub Item 2 </li>
-                    <li> Sub Item 3 </li>
-                </ol>
-            </li>
-            <li> Item 2 </li>
-            <li> Item 3 </li>
-        </ul>
-    </section>
-    <hr>
-
-    <section>
-        <h1> Image Tag: </h1>
-        <img src="./assets/cardinals_wbg.png" width="200" height="200" />
-
-    </section>
-
-    <section>
-        <h1> Video Tag: </h1>
-        <p>The video tag works basically the same as the image tag, you can add width, heigth, controls, and autoplay attributes</p>
-
-    </section>
-
-    <section>
-        <h2> IFrame: </h2>
-        <iframe src="https://www.youtube.com/embed/CC7OJ7gFLvE" width="800" height="500"></iframe>
-    </section>
-
-    <section>
-        <h1>Audio Tag: </h1>
-        <p> when you insert the audio you move the audio to your assets file, much like you would with image or video. 
-            <br> Use the source attribute, then the name of the audio file, then controls, then close the audio tag.
-        </p>
-    </section>
-</body>
+        <footer style="position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; background-color: orangered;">
+            <p> Created By: M. Mehring &copy; 2021</p>
+            <p> Contact info: <a href="mailto:mamkwd@umsystem.edu"> mamkwd@umsystem.edu</a></p>
+        </footer>
+    </body>
 </html>
